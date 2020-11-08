@@ -1,0 +1,274 @@
+
+body {
+  font-family: "Zilla Slab";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Quicksand";
+}
+
+
+
+/* Headings */
+
+.big-heading {
+  font-family: "Quicksand";
+  font-weight: 500;
+  font-size: 3.5rem;
+  line-height: 1.25;
+  color: #fbfd8a;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #01a9b4;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* Navigation Bar */
+
+.logo-img{
+  height:5rem;
+
+}
+
+.navbar-brand{
+  max-width: 300px;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+
+
+.nav-item {
+  padding: 0 17px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Quicksand";
+  color: white;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #8ccbbe;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 12%;
+  margin-bottom: 1rem;
+}
+
+.title-subtext{
+  font-family: "Zilla Slab";
+}
+/* Title Image */
+
+.title-image {
+  width: 70%;
+  position: absolute;
+  left:30%;
+
+}
+
+/*TItle line*/
+.title-line{
+  width:10%;
+  height:5px;
+  background-color:#fa1616;
+  border-width:0;
+}
+
+
+
+/*About Me*/
+#about-me p{
+  font-size: 1.5rem;
+}
+
+/*My Work*/
+.my-work-content{
+  color:white;
+}
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+
+
+/*style in mobile*/
+@media (max-width: 1028px) {
+
+  .container-fluid{
+    padding: 7%;
+  }
+
+ h2{
+   font-size: 5rem;
+ }
+
+
+
+
+
+  /*title*/
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+  }
+
+  #title .container-fluid{
+    padding: 7%;
+  }
+
+  .navbar-brand {
+    font-size: 4rem;
+
+  }
+.navbar-toggler{
+  height: 4rem;
+}
+
+  .nav-link {
+    font-size: 3.5rem;
+  }
+
+  .big-heading {
+
+    font-size: 6rem;
+  }
+
+  #title h4{
+    font-size: 4rem;
+  }
+
+  /*feature box*/
+  .feature-box{
+    text-align: left;
+  }
+
+.icon{
+  display: none;
+  }
+
+  .feature-title{
+
+    margin-bottom: 0;
+  }
+
+
+  /*benefits*/
+ #benefits hr{
+   text-align: left;
+   margin-left: 20px;
+ }
+
+  #benefits h2{
+
+    padding-left:15px ;
+        text-align: left;
+        margin-bottom: 3rem;
+
+  }
+
+  #benefits h3{
+    font-size: 4rem;
+
+  }
+
+  #benefits p{
+    font-size: 3.5rem;
+  }
+
+  /*About Us*/
+ #about-us{
+   background-color: #01a9b4;
+
+ }
+
+ #about-us hr{
+    text-align: center;
+ }
+
+  #about-us h2{
+    font-size: 4rem;
+    color: #fbfd8a;
+
+
+  }
+
+  #about-us p{
+    font-size: 3.5rem;
+    color: #fff;
+  }
+
+  /*syllabus*/
+
+  #syllabus h2{
+     text-align: left;
+
+     margin-bottom: 3rem;
+
+  }
+  #syllabus hr{
+    text-align: left;
+    margin-left: 0px;
+  }
+
+  #syllabus h3{
+    font-size: 4rem;
+  }
+
+  #syllabus p{
+    font-size: 3.5rem;
+  }
+
+.download-button {
+  font-size: 3.5rem;
+}
+
+.syllabus-img{
+  display: none;
+}
+
+
+
+
+}
